@@ -9,6 +9,33 @@ Given "bbbbb", the answer is "b", with the length of 1.
 Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 */
 
+/*
+My Explanation-
+           abcabbab
+           1 2 3 3 3 3
+           0 1 2 3 4 5 6 7
+       a   1     1
+       b     1     1   1 1
+       c       1     1
+
+       O(n) solution
+       create hashmap<letter, index they were last seen at>
+       create array to keep track of count
+       create variable to find max
+
+       if char not in hashmap
+           last count++;
+           update max if needed;
+       else
+           get index of last char
+           currentCont = currentIndex - lastIndex;
+           if lastCount > curentCount
+               this index = currentCount
+           else
+               this index = lastCount++;
+           update max is needed;
+*/
+
 import java.util.*;
 
 class Solution{

@@ -3,7 +3,7 @@
 ### To Run:
 
 ```
-1. cd Problems
+1. cd Problems || cd Data_Structures
 2. javac <PROBLEM_NAME>
 3. java Solution
 ```

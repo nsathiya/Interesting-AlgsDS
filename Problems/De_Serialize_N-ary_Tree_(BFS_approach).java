@@ -1,4 +1,6 @@
 /*
+author: @nsathiya
+
 Given an N-ary tree where every node has at-most N children.
 Write functions to serialize and deserialize it. Nodes can
 have duplicate values.

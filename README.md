@@ -9,9 +9,13 @@
 ```
 ### Content:
 
+#### Problems
 1. De/Serialize N-ary Tree (BFS approach)
 2. Longest Substring Without Repeating Characters (DP approach)
 3. Find Longest Path Visited In DAG (Topological sort- no weighted edges)
+
+#### Data Structures
+1. HashMap
 
 ### Feedback:
 

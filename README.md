@@ -15,7 +15,7 @@
 3. Find Longest Path Visited In DAG (Topological sort- no weighted edges)
 
 #### Data Structures
-1. HashMap
+1. HashMap (Chaining For Collision Handling)
 
 ### Feedback:
 

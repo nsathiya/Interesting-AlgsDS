@@ -68,7 +68,7 @@ class HashMapRef <K,V> {
   private final int MAP_INITIAL_SIZE = 5;
 
   public HashMapRef(){
-  	this.entries = new EntryRef[MAP_INITIAL_SIZE];
+    this.entries = new EntryRef[MAP_INITIAL_SIZE];
     this.currentHashSize = MAP_INITIAL_SIZE;
     this.currentCount = 0;
   }
@@ -103,7 +103,7 @@ class HashMapRef <K,V> {
       this.currentCount++;
     } else {
       boolean inserted = false;
-      //check if exisiting entries have similar keys. if so update value.
+      //check if existing entries have similar keys. if so update value.
       while(current.getNext() != null){
         if (current.getKey() == key){
           current.setValue(value);

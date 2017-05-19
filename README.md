@@ -16,6 +16,7 @@
 
 #### Data Structures
 1. HashMap (Chaining For Collision Handling)
+2. LRU Cache (O(1) get() & put())
 
 ### Feedback:
 
